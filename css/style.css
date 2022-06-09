@@ -1,0 +1,11 @@
+body {
+   font-size: 10px;
+}
+
+body .div {
+   background-color: darkgreen;
+}
+
+body div {
+   font-size: 25px;
+}
