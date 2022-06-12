@@ -1,11 +1,68 @@
-body {
-   font-size: 10px;
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  -webkit-box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.5);
+  font-family: 'Lato';
 }
 
-body .div {
-   background-color: darkgreen;
+.wrapper aside {
+  background-color: #E5E7E8;
+  padding: 100px 70px;
+  max-width: 450px;
+  min-width: 360px;
 }
 
-body div {
-   font-size: 25px;
+.wrapper aside .aside__section {
+  margin-bottom: 150px;
+}
+
+.wrapper aside .aside__section .aside__caption {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.wrapper aside .aside__section .aside__content {
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.wrapper aside .aside__section .aside__content span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.wrapper aside .aside__section .aside__content span.aside__feature {
+  letter-spacing: 2px;
+}
+
+.wrapper aside .aside__section .aside__content span b {
+  display: inline-block;
+  margin-right: 15px;
+  width: 75px;
+}
+
+.wrapper aside .aside__section .aside__content span a {
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+.wrapper aside .aside__section .aside__content span a:hover {
+  cursor: pointer;
+}
+
+.wrapper aside .aside__section .aside__content span a:active {
+  color: red;
+}
+
+.wrapper aside .aside__section .aside__content span a:visited {
+  color: darkgreen;
 }
