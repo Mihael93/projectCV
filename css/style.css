@@ -190,6 +190,11 @@
   margin-bottom: 40px;
 }
 
+.wrapper .wrapper__main .main__content .main__section .section__content span {
+  display: block;
+  margin-bottom: 5px;
+}
+
 .wrapper .wrapper__main .main__content .main__section .section__content .section__subtitle {
   line-height: 30px;
   font-weight: 700;
